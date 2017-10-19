@@ -42,6 +42,7 @@ itembank:
   lockSectionMaxRetries: "10"
   lockSectionRetryDelayMillis: "2000"
   randomizeItemBank: false
+  reportRepoName: "ItemBankReports"
 
 logging:
   level:
