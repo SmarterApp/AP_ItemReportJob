@@ -1,0 +1,25 @@
+version: '2.1'
+services:
+    configuration-service:
+        container_name: configuration-service
+        image: @dockerTagBase@/configuration-service:@configServerVersion@
+        healthcheck:
+          test: ["CMD", "curl", "-f", "http://localhost:8888/health"]
+          interval: 30s
+          timeout: 5s
+          retries: 3
+        environment:
+          CONFIG_SERVICE_REPO: "file://tmp"
+        expose:
+            - 8888
+        ports:
+            - 8888:8888
+        networks:
+            - spring-cloud-network
+        volumes:
+            - @USER_HOME@/smarter_app/iat-config-repo:/tmp
+        logging:
+            driver: json-file
+networks:
+    spring-cloud-network:
+        driver: bridge
