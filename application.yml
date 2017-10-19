@@ -26,6 +26,10 @@ spring:
   session:
     enabled: "${SESSION_CLUSTER_ENABLED:true}"
 
+irj:
+  systemUserName: "item-report-job"
+  systemFullName: "Item Report Job"
+
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
   accessToken: "${GITLAB_ACCESS_TOKEN}"
