@@ -53,4 +53,4 @@ logging:
       opentestsystem:
         ap:
           irj: DEBUG
-          common: DEBUG
+          common: WARN
