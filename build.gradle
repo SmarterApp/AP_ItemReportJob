@@ -83,6 +83,8 @@ dependencies {
 
     compile 'com.google.guava:guava:22.0'
 
+    compile 'joda-time:joda-time:2.9.9'
+
     compile 'io.github.openfeign:feign-gson:9.3.1'
 
     compile 'io.springfox:springfox-swagger2:2.6.1'
