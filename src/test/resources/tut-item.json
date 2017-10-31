@@ -1,0 +1,29 @@
+{
+  "id" : "841",
+  "type" : "tut",
+  "core" : {
+    "workflowStatusCode" : "Draft",
+    "content" : "This is the content <u>for</u> <em>a</em> <strong>tutorial</strong>."
+  },
+  "asl" : {
+    "attachments" : [ ],
+    "isAslRequired" : "undetermined",
+    "isAslProvided" : false
+  },
+  "braille" : {
+    "attachments" : [ ],
+    "isBrailleRequired" : "undetermined",
+    "isBrailleProvided" : false
+  },
+  "cc" : {
+    "attachments" : [ ],
+    "isCcRequired" : "undetermined",
+    "isCcProvided" : false
+  },
+  "images" : {
+    "imageResources" : [ ]
+  },
+  "audio" : {
+    "audioResources" : [ ]
+  }
+}

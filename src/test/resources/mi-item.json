@@ -1,0 +1,120 @@
+{
+  "id" : "837",
+  "type" : "mi",
+  "core" : {
+    "workflowStatusCode" : "Draft",
+    "tutorialId" : null,
+    "stimulusId" : null,
+    "prompt" : "This is a Match Interaction item.",
+    "table" : {
+      "title" : "",
+      "columns" : [ {
+        "label" : ""
+      }, {
+        "label" : "Answer"
+      } ],
+      "rows" : [ {
+        "cells" : [ {
+          "type" : "label",
+          "value" : "Angela"
+        }, {
+          "type" : "answer",
+          "value" : true
+        } ]
+      }, {
+        "cells" : [ {
+          "type" : "label",
+          "value" : "Brian"
+        }, {
+          "type" : "answer",
+          "value" : false
+        } ]
+      }, {
+        "cells" : [ {
+          "type" : "label",
+          "value" : "Cody"
+        }, {
+          "type" : "answer",
+          "value" : true
+        } ]
+      }, {
+        "cells" : [ {
+          "type" : "label",
+          "value" : "Dee"
+        }, {
+          "type" : "answer",
+          "value" : false
+        } ]
+      } ]
+    },
+    "metadata" : {
+      "accessibilityLanguageComplexity" : "",
+      "calculator" : "",
+      "claim2Category" : "",
+      "claim2SubCategory" : "",
+      "contentDomain" : "",
+      "contentTaskModel" : "",
+      "copyrightHolder" : "",
+      "copyrightHolderOther" : "",
+      "depthOfKnowledge" : "",
+      "grade" : "",
+      "grade8Or11OnlyAlgebraDescriptor" : "",
+      "itemPoint" : "",
+      "knowledgeDemands" : "",
+      "languageFeatures" : "",
+      "maxGrade" : "",
+      "meaningPurpose" : "",
+      "minGrade" : "",
+      "passageName" : "",
+      "performanceTask" : "",
+      "primaryAssessmentTarget" : "",
+      "primaryClaim" : "",
+      "primaryCommonCoreStandard" : "",
+      "primaryContentDomain" : "",
+      "quaternaryAssessmentTarget" : "",
+      "quaternaryClaim" : "",
+      "quaternaryCommonCoreStandard" : "",
+      "quaternaryContentDomain" : "",
+      "readabilityFleschKincaid" : "",
+      "readabilityLexile" : "",
+      "scoringEngine" : "",
+      "scoringPoints" : "",
+      "secondaryAssessmentTarget" : "",
+      "secondaryClaim" : "",
+      "secondaryCommonCoreStandard" : "",
+      "secondaryContentDomain" : "",
+      "stimulusFormat" : "",
+      "stimulusLength" : "",
+      "structure" : "",
+      "subject" : "",
+      "tertiaryAssessmentTarget" : "",
+      "tertiaryClaim" : "",
+      "tertiaryCommonCoreStandard" : "",
+      "tertiaryContentDomain" : "",
+      "testCategory" : "",
+      "wordCount" : "",
+      "writingPurpose" : ""
+    }
+  },
+  "asl" : {
+    "attachments" : [ ],
+    "isAslRequired" : "undetermined",
+    "isAslProvided" : false
+  },
+  "braille" : {
+    "attachments" : [ ],
+    "isBrailleRequired" : "undetermined",
+    "isBrailleProvided" : false
+  },
+  "cc" : {
+    "attachments" : [ ],
+    "isCcRequired" : "undetermined",
+    "isCcProvided" : false
+  },
+  "images" : {
+    "imageResources" : [ ]
+  },
+  "audio" : {
+    "audioResources" : [ ]
+  }
+}
