@@ -30,6 +30,9 @@ irj:
   systemUserName: "item-report-job"
   systemFullName: "Item Report Job"
 
+tasks:
+  reportSchedule: "0 */5 * * * *"
+
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
   accessToken: "${GITLAB_ACCESS_TOKEN}"
@@ -41,7 +44,8 @@ itembank:
   bankKey: "187"
   lockSectionMaxRetries: "10"
   lockSectionRetryDelayMillis: "2000"
-  randomizeItemBank: false
+  randomizeItemClone: false
+  reportRepoName: "ItemBankReports"
 
 logging:
   level:
@@ -49,4 +53,4 @@ logging:
       opentestsystem:
         ap:
           irj: DEBUG
-          common: DEBUG
+          common: WARN
