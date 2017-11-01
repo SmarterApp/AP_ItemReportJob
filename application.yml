@@ -31,7 +31,7 @@ irj:
   systemFullName: "Item Report Job"
 
 tasks:
-  itemStateReportSchedule: "0 30 0 * * *"
+  reportSchedule: "0 */5 * * * *"
 
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
@@ -53,4 +53,4 @@ logging:
       opentestsystem:
         ap:
           irj: DEBUG
-          common: DEBUG
+          common: WARN

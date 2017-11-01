@@ -1,0 +1,41 @@
+[ {
+  "category" : "Item",
+  "severity" : "Degraded",
+  "message" : "Tutorial id missing from item.",
+  "detail" : null
+}, {
+  "category" : "Metadata",
+  "severity" : "Degraded",
+  "message" : "MaximumNumberOfPoints field not present in metadata",
+  "detail" : null
+}, {
+  "category" : "Attribute",
+  "severity" : "Tolerable",
+  "message" : "Missing grade in item attributes (itm_att_Grade).",
+  "detail" : null
+}, {
+  "category" : "Attribute",
+  "severity" : "Tolerable",
+  "message" : "Missing subject in item attributes (itm_item_subject).",
+  "detail" : null
+}, {
+  "category" : "Item",
+  "severity" : "Tolerable",
+  "message" : "Item Point attribute (item_att_Item Point) not found.",
+  "detail" : null
+}, {
+  "category" : "Metadata",
+  "severity" : "Tolerable",
+  "message" : "Automatic/HandScored scoring metadata error.",
+  "detail" : "Found='' Expected='HandScored'"
+}, {
+  "category" : "Metadata",
+  "severity" : "Tolerable",
+  "message" : "Missing <IntendedGrade> in item metadata.",
+  "detail" : null
+}, {
+  "category" : "Metadata",
+  "severity" : "Tolerable",
+  "message" : "Missing subject in item metadata.",
+  "detail" : null
+} ]
