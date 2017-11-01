@@ -8,14 +8,16 @@ Execution Time: ${summary.executionTime?long} seconds
 
    Total Items: ${summary.totalCount}
     Successful: ${summary.successfulCount}
-        Failed: ${summary.errorCount}
+  Total Errors: ${summary.totalErrorCount}
+   Item Errors: ${summary.itemErrorCount}
+General Errors: ${summary.generalErrorCount}
 
 -----------------------
 Report Errors
 -----------------------
 
 Item Errors:
-<#list summary.errors as error>
+<#list summary.itemErrors as error>
     <#if error.itemId??>
     [${error.itemId?left_pad(10)}] ${error.message}
     </#if>
