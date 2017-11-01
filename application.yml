@@ -31,7 +31,7 @@ irj:
   systemFullName: "Item Report Job"
 
 tasks:
-  reportSchedule: "0 */5 * * * *"
+  reportSchedule: "0 30 12 * * *"
 
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
