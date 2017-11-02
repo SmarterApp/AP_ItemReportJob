@@ -1,104 +1,115 @@
 {
-  "id" : "833",
-  "type" : "ebsr",
-  "core" : {
-    "workflowStatusCode" : "Draft",
-    "tutorialId" : "841",
-    "stimulusId" : "840",
-    "prompt" : "This is the main prompt for EBSR.",
-    "partAPrompt" : "What is 3 + 3?",
-    "partAOptions" : [ {
-      "text" : "3",
-      "isCorrectAnswer" : false
-    }, {
-      "text" : "6",
-      "isCorrectAnswer" : true
-    }, {
-      "text" : "4",
-      "isCorrectAnswer" : false
-    }, {
-      "text" : "5",
-      "isCorrectAnswer" : false
-    } ],
-    "partBPrompt" : "What are the two largest states?",
-    "partBOptions" : [ {
-      "text" : "Texas",
-      "isCorrectAnswer" : true
-    }, {
-      "text" : "California",
-      "isCorrectAnswer" : false
-    }, {
-      "text" : "Alaska",
-      "isCorrectAnswer" : true
-    } ],
-    "metadata" : {
-      "accessibilityLanguageComplexity" : "",
-      "calculator" : "",
-      "claim2Category" : "",
-      "claim2SubCategory" : "",
-      "contentDomain" : "",
-      "contentTaskModel" : "",
-      "copyrightHolder" : "",
-      "copyrightHolderOther" : "",
-      "depthOfKnowledge" : "",
-      "grade" : "",
-      "grade8Or11OnlyAlgebraDescriptor" : "",
-      "itemPoint" : "",
-      "knowledgeDemands" : "",
-      "languageFeatures" : "",
-      "maxGrade" : "",
-      "meaningPurpose" : "",
-      "minGrade" : "",
-      "passageName" : "",
-      "performanceTask" : "",
-      "primaryAssessmentTarget" : "",
-      "primaryClaim" : "",
-      "primaryCommonCoreStandard" : "",
-      "primaryContentDomain" : "",
-      "quaternaryAssessmentTarget" : "",
-      "quaternaryClaim" : "",
-      "quaternaryCommonCoreStandard" : "",
-      "quaternaryContentDomain" : "",
-      "readabilityFleschKincaid" : "",
-      "readabilityLexile" : "",
-      "scoringEngine" : "",
-      "scoringPoints" : "",
-      "secondaryAssessmentTarget" : "",
-      "secondaryClaim" : "",
-      "secondaryCommonCoreStandard" : "",
-      "secondaryContentDomain" : "",
-      "stimulusFormat" : "",
-      "stimulusLength" : "",
-      "structure" : "",
-      "subject" : "",
-      "tertiaryAssessmentTarget" : "",
-      "tertiaryClaim" : "",
-      "tertiaryCommonCoreStandard" : "",
-      "tertiaryContentDomain" : "",
-      "testCategory" : "",
-      "wordCount" : "",
-      "writingPurpose" : ""
+  "id": "833",
+  "type": "ebsr",
+  "core": {
+    "workflowStatusCode": "Draft",
+    "tutorialId": "841",
+    "stimulusId": "840",
+    "en": {
+      "prompt": "This is the main prompt for EBSR.",
+      "partAPrompt": "What is 3 + 3?",
+      "partAOptions": [
+        {
+          "text": "3",
+          "isCorrectAnswer": false
+        },
+        {
+          "text": "6",
+          "isCorrectAnswer": true
+        },
+        {
+          "text": "4",
+          "isCorrectAnswer": false
+        },
+        {
+          "text": "5",
+          "isCorrectAnswer": false
+        }
+      ],
+      "partBPrompt": "What are the two largest states?",
+      "partBOptions": [
+        {
+          "text": "Texas",
+          "isCorrectAnswer": true
+        },
+        {
+          "text": "California",
+          "isCorrectAnswer": false
+        },
+        {
+          "text": "Alaska",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    "metadata": {
+      "accessibilityLanguageComplexity": "",
+      "calculator": "",
+      "claim2Category": "",
+      "claim2SubCategory": "",
+      "contentDomain": "",
+      "contentTaskModel": "",
+      "copyrightHolder": "",
+      "copyrightHolderOther": "",
+      "depthOfKnowledge": "",
+      "grade": "",
+      "grade8Or11OnlyAlgebraDescriptor": "",
+      "itemPoint": "",
+      "knowledgeDemands": "",
+      "languageFeatures": "",
+      "maxGrade": "",
+      "meaningPurpose": "",
+      "minGrade": "",
+      "passageName": "",
+      "performanceTask": "",
+      "primaryAssessmentTarget": "",
+      "primaryClaim": "",
+      "primaryCommonCoreStandard": "",
+      "primaryContentDomain": "",
+      "quaternaryAssessmentTarget": "",
+      "quaternaryClaim": "",
+      "quaternaryCommonCoreStandard": "",
+      "quaternaryContentDomain": "",
+      "readabilityFleschKincaid": "",
+      "readabilityLexile": "",
+      "scoringEngine": "",
+      "scoringPoints": "",
+      "secondaryAssessmentTarget": "",
+      "secondaryClaim": "",
+      "secondaryCommonCoreStandard": "",
+      "secondaryContentDomain": "",
+      "stimulusFormat": "",
+      "stimulusLength": "",
+      "structure": "",
+      "subject": "",
+      "tertiaryAssessmentTarget": "",
+      "tertiaryClaim": "",
+      "tertiaryCommonCoreStandard": "",
+      "tertiaryContentDomain": "",
+      "testCategory": "",
+      "wordCount": "",
+      "writingPurpose": ""
     }
   },
-  "asl" : {
-    "attachments" : [ ],
-    "isAslRequired" : "undetermined",
-    "isAslProvided" : false
+  "asl": {
+    "attachments": [],
+    "isAslRequired": "undetermined",
+    "isAslProvided": false
   },
-  "braille" : {
-    "attachments" : [ ],
-    "isBrailleRequired" : "undetermined",
-    "isBrailleProvided" : false
+  "braille": {
+    "attachments": [],
+    "isBrailleRequired": "undetermined",
+    "isBrailleProvided": false
   },
-  "cc" : {
-    "attachments" : [ ],
-    "isCcRequired" : "undetermined",
-    "isCcProvided" : false
+  "cc": {
+    "attachments": [],
+    "isCcRequired": "undetermined",
+    "isCcProvided": false
   },
-  "images" : {
-    "imageResources" : [ ]
+  "images": {
+    "imageResources": []
   },
-  "audio" : {
-    "audioResources" : [ ]
+  "audio": {
+    "audioResources": []
   }
 }

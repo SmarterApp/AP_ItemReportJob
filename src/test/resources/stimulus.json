@@ -1,77 +1,79 @@
 {
-  "id" : "840",
-  "type" : "stim",
-  "core" : {
-    "workflowStatusCode" : "Draft",
-    "content" : "This is the prompt for a stimulus.<br /><br />This is <em>some</em> <strong>rich</strong> <u>text</u>.",
-    "metadata" : {
-      "accessibilityLanguageComplexity" : "",
-      "calculator" : "",
-      "claim2Category" : "",
-      "claim2SubCategory" : "",
-      "contentDomain" : "ReadingLiterature",
-      "contentTaskModel" : "",
-      "copyrightHolder" : "Commissioned",
-      "copyrightHolderOther" : "Copyright Holder",
-      "depthOfKnowledge" : "",
-      "grade" : "6",
-      "grade8Or11OnlyAlgebraDescriptor" : "",
-      "itemPoint" : "",
-      "knowledgeDemands" : "ModeratelyComplex",
-      "languageFeatures" : "VeryComplex",
-      "maxGrade" : "",
-      "meaningPurpose" : "SlightlyComplex",
-      "minGrade" : "",
-      "passageName" : "To Be or Not To Be",
-      "performanceTask" : "Yes",
-      "primaryAssessmentTarget" : "",
-      "primaryClaim" : "",
-      "primaryCommonCoreStandard" : "",
-      "primaryContentDomain" : "",
-      "quaternaryAssessmentTarget" : "",
-      "quaternaryClaim" : "",
-      "quaternaryCommonCoreStandard" : "",
-      "quaternaryContentDomain" : "",
-      "readabilityFleschKincaid" : "Flesh-Kincaid",
-      "readabilityLexile" : "Lexile",
-      "scoringEngine" : "",
-      "scoringPoints" : "5",
-      "secondaryAssessmentTarget" : "",
-      "secondaryClaim" : "",
-      "secondaryCommonCoreStandard" : "",
-      "secondaryContentDomain" : "",
-      "stimulusFormat" : "Standard",
-      "stimulusLength" : "Short",
-      "structure" : "ExceedinglyComplex",
-      "subject" : "ELA",
-      "tertiaryAssessmentTarget" : "",
-      "tertiaryClaim" : "",
-      "tertiaryCommonCoreStandard" : "",
-      "tertiaryContentDomain" : "",
-      "testCategory" : "Practice",
-      "wordCount" : "567",
-      "writingPurpose" : "Narrative"
+  "id": "840",
+  "type": "stim",
+  "core": {
+    "workflowStatusCode": "Draft",
+    "en": {
+      "content": "This is the prompt for a stimulus.<br /><br />This is <em>some</em> <strong>rich</strong> <u>text</u>."
+    },
+    "metadata": {
+      "accessibilityLanguageComplexity": "",
+      "calculator": "",
+      "claim2Category": "",
+      "claim2SubCategory": "",
+      "contentDomain": "ReadingLiterature",
+      "contentTaskModel": "",
+      "copyrightHolder": "Commissioned",
+      "copyrightHolderOther": "Copyright Holder",
+      "depthOfKnowledge": "",
+      "grade": "6",
+      "grade8Or11OnlyAlgebraDescriptor": "",
+      "itemPoint": "",
+      "knowledgeDemands": "ModeratelyComplex",
+      "languageFeatures": "VeryComplex",
+      "maxGrade": "",
+      "meaningPurpose": "SlightlyComplex",
+      "minGrade": "",
+      "passageName": "To Be or Not To Be",
+      "performanceTask": "Yes",
+      "primaryAssessmentTarget": "",
+      "primaryClaim": "",
+      "primaryCommonCoreStandard": "",
+      "primaryContentDomain": "",
+      "quaternaryAssessmentTarget": "",
+      "quaternaryClaim": "",
+      "quaternaryCommonCoreStandard": "",
+      "quaternaryContentDomain": "",
+      "readabilityFleschKincaid": "Flesh-Kincaid",
+      "readabilityLexile": "Lexile",
+      "scoringEngine": "",
+      "scoringPoints": "5",
+      "secondaryAssessmentTarget": "",
+      "secondaryClaim": "",
+      "secondaryCommonCoreStandard": "",
+      "secondaryContentDomain": "",
+      "stimulusFormat": "Standard",
+      "stimulusLength": "Short",
+      "structure": "ExceedinglyComplex",
+      "subject": "ELA",
+      "tertiaryAssessmentTarget": "",
+      "tertiaryClaim": "",
+      "tertiaryCommonCoreStandard": "",
+      "tertiaryContentDomain": "",
+      "testCategory": "Practice",
+      "wordCount": "567",
+      "writingPurpose": "Narrative"
     }
   },
-  "asl" : {
-    "attachments" : [ ],
-    "isAslRequired" : "undetermined",
-    "isAslProvided" : false
+  "asl": {
+    "attachments": [],
+    "isAslRequired": "undetermined",
+    "isAslProvided": false
   },
-  "braille" : {
-    "attachments" : [ ],
-    "isBrailleRequired" : "undetermined",
-    "isBrailleProvided" : false
+  "braille": {
+    "attachments": [],
+    "isBrailleRequired": "undetermined",
+    "isBrailleProvided": false
   },
-  "cc" : {
-    "attachments" : [ ],
-    "isCcRequired" : "undetermined",
-    "isCcProvided" : false
+  "cc": {
+    "attachments": [],
+    "isCcRequired": "undetermined",
+    "isCcProvided": false
   },
-  "images" : {
-    "imageResources" : [ ]
+  "images": {
+    "imageResources": []
   },
-  "audio" : {
-    "audioResources" : [ ]
+  "audio": {
+    "audioResources": []
   }
 }

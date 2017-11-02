@@ -1,120 +1,142 @@
 {
-  "id" : "832",
-  "type" : "ti",
-  "core" : {
-    "workflowStatusCode" : "Draft",
-    "tutorialId" : null,
-    "stimulusId" : null,
-    "prompt" : "This is my TI prompt <em>with</em> <strong>rich</strong> <u>text</u>.",
-    "table" : {
-      "title" : "Sales Summary Report",
-      "columns" : [ {
-        "label" : "Week"
-      }, {
-        "label" : "March"
-      } ],
-      "rows" : [ {
-        "cells" : [ {
-          "type" : "label",
-          "value" : "1"
-        }, {
-          "type" : "answer",
-          "value" : "11"
-        } ]
-      }, {
-        "cells" : [ {
-          "type" : "label",
-          "value" : "2"
-        }, {
-          "type" : "answer",
-          "value" : "22"
-        } ]
-      }, {
-        "cells" : [ {
-          "type" : "label",
-          "value" : "3"
-        }, {
-          "type" : "answer",
-          "value" : "33"
-        } ]
-      }, {
-        "cells" : [ {
-          "type" : "label",
-          "value" : "4"
-        }, {
-          "type" : "label",
-          "value" : "44"
-        } ]
-      } ]
+  "id": "832",
+  "type": "ti",
+  "core": {
+    "workflowStatusCode": "Draft",
+    "tutorialId": null,
+    "stimulusId": null,
+    "en": {
+      "prompt": "This is my TI prompt <em>with</em> <strong>rich</strong> <u>text</u>.",
+      "table": {
+        "title": "Sales Summary Report",
+        "columns": [
+          {
+            "label": "Week"
+          },
+          {
+            "label": "March"
+          }
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "label",
+                "value": "1"
+              },
+              {
+                "type": "answer",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "label",
+                "value": "2"
+              },
+              {
+                "type": "answer",
+                "value": "22"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "label",
+                "value": "3"
+              },
+              {
+                "type": "answer",
+                "value": "33"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "label",
+                "value": "4"
+              },
+              {
+                "type": "label",
+                "value": "44"
+              }
+            ]
+          }
+        ]
+      }
     },
-    "metadata" : {
-      "accessibilityLanguageComplexity" : "4",
-      "calculator" : "",
-      "claim2Category" : "EvidenceElaboration",
-      "claim2SubCategory" : "BriefWrite1A3A6A",
-      "contentDomain" : "ReadingLiterature",
-      "contentTaskModel" : "CTM",
-      "copyrightHolder" : "",
-      "copyrightHolderOther" : "",
-      "depthOfKnowledge" : "4",
-      "grade" : "8",
-      "grade8Or11OnlyAlgebraDescriptor" : "",
-      "itemPoint" : "4",
-      "knowledgeDemands" : "",
-      "languageFeatures" : "",
-      "maxGrade" : "9",
-      "meaningPurpose" : "",
-      "minGrade" : "8",
-      "passageName" : "",
-      "performanceTask" : "Yes",
-      "primaryAssessmentTarget" : "PAS",
-      "primaryClaim" : "4",
-      "primaryCommonCoreStandard" : "PCCS",
-      "primaryContentDomain" : "",
-      "quaternaryAssessmentTarget" : "",
-      "quaternaryClaim" : "",
-      "quaternaryCommonCoreStandard" : "",
-      "quaternaryContentDomain" : "",
-      "readabilityFleschKincaid" : "",
-      "readabilityLexile" : "",
-      "scoringEngine" : "AutomaticWithKeys",
-      "scoringPoints" : "9",
-      "secondaryAssessmentTarget" : "",
-      "secondaryClaim" : "",
-      "secondaryCommonCoreStandard" : "SCCS",
-      "secondaryContentDomain" : "",
-      "stimulusFormat" : "",
-      "stimulusLength" : "",
-      "structure" : "",
-      "subject" : "ELA",
-      "tertiaryAssessmentTarget" : "",
-      "tertiaryClaim" : "",
-      "tertiaryCommonCoreStandard" : "",
-      "tertiaryContentDomain" : "",
-      "testCategory" : "Summative",
-      "wordCount" : "",
-      "writingPurpose" : "Narrative"
+    "metadata": {
+      "accessibilityLanguageComplexity": "4",
+      "calculator": "",
+      "claim2Category": "EvidenceElaboration",
+      "claim2SubCategory": "BriefWrite1A3A6A",
+      "contentDomain": "ReadingLiterature",
+      "contentTaskModel": "CTM",
+      "copyrightHolder": "",
+      "copyrightHolderOther": "",
+      "depthOfKnowledge": "4",
+      "grade": "8",
+      "grade8Or11OnlyAlgebraDescriptor": "",
+      "itemPoint": "4",
+      "knowledgeDemands": "",
+      "languageFeatures": "",
+      "maxGrade": "9",
+      "meaningPurpose": "",
+      "minGrade": "8",
+      "passageName": "",
+      "performanceTask": "Yes",
+      "primaryAssessmentTarget": "PAS",
+      "primaryClaim": "4",
+      "primaryCommonCoreStandard": "PCCS",
+      "primaryContentDomain": "",
+      "quaternaryAssessmentTarget": "",
+      "quaternaryClaim": "",
+      "quaternaryCommonCoreStandard": "",
+      "quaternaryContentDomain": "",
+      "readabilityFleschKincaid": "",
+      "readabilityLexile": "",
+      "scoringEngine": "AutomaticWithKeys",
+      "scoringPoints": "9",
+      "secondaryAssessmentTarget": "",
+      "secondaryClaim": "",
+      "secondaryCommonCoreStandard": "SCCS",
+      "secondaryContentDomain": "",
+      "stimulusFormat": "",
+      "stimulusLength": "",
+      "structure": "",
+      "subject": "ELA",
+      "tertiaryAssessmentTarget": "",
+      "tertiaryClaim": "",
+      "tertiaryCommonCoreStandard": "",
+      "tertiaryContentDomain": "",
+      "testCategory": "Summative",
+      "wordCount": "",
+      "writingPurpose": "Narrative"
     }
   },
-  "asl" : {
-    "attachments" : [ ],
-    "isAslRequired" : "undetermined",
-    "isAslProvided" : false
+  "asl": {
+    "attachments": [],
+    "isAslRequired": "undetermined",
+    "isAslProvided": false
   },
-  "braille" : {
-    "attachments" : [ ],
-    "isBrailleRequired" : "undetermined",
-    "isBrailleProvided" : false
+  "braille": {
+    "attachments": [],
+    "isBrailleRequired": "undetermined",
+    "isBrailleProvided": false
   },
-  "cc" : {
-    "attachments" : [ ],
-    "isCcRequired" : "undetermined",
-    "isCcProvided" : false
+  "cc": {
+    "attachments": [],
+    "isCcRequired": "undetermined",
+    "isCcProvided": false
   },
-  "images" : {
-    "imageResources" : [ ]
+  "images": {
+    "imageResources": []
   },
-  "audio" : {
-    "audioResources" : [ ]
+  "audio": {
+    "audioResources": []
   }
 }
