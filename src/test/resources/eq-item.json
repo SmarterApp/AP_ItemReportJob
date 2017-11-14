@@ -1,137 +1,145 @@
 {
-  "id" : "834",
-  "type" : "eq",
-  "core" : {
-    "workflowStatusCode" : "Draft",
-    "tutorialId" : null,
-    "stimulusId" : null,
-    "prompt" : "This is the content of an EQ item.",
-    "parts" : [ {
-      "leftLabel" : "Left Input Label 1",
-      "rightLabel" : "Right Input Label 1",
-      "exemplarResponses" : [ ]
-    }, {
-      "leftLabel" : "Left Input Label 2",
-      "rightLabel" : "Right Input Label 2",
-      "exemplarResponses" : [ ]
-    } ],
-    "metadata" : {
-      "accessibilityLanguageComplexity" : "",
-      "calculator" : "",
-      "claim2Category" : "",
-      "claim2SubCategory" : "",
-      "contentDomain" : "",
-      "contentTaskModel" : "",
-      "copyrightHolder" : "",
-      "copyrightHolderOther" : "",
-      "depthOfKnowledge" : "",
-      "grade" : "",
-      "grade8Or11OnlyAlgebraDescriptor" : "",
-      "itemPoint" : "",
-      "knowledgeDemands" : "",
-      "languageFeatures" : "",
-      "maxGrade" : "",
-      "meaningPurpose" : "",
-      "minGrade" : "",
-      "passageName" : "",
-      "performanceTask" : "",
-      "primaryAssessmentTarget" : "",
-      "primaryClaim" : "",
-      "primaryCommonCoreStandard" : "",
-      "primaryContentDomain" : "",
-      "quaternaryAssessmentTarget" : "",
-      "quaternaryClaim" : "",
-      "quaternaryCommonCoreStandard" : "",
-      "quaternaryContentDomain" : "",
-      "readabilityFleschKincaid" : "",
-      "readabilityLexile" : "",
-      "scoringEngine" : "",
-      "scoringPoints" : "",
-      "secondaryAssessmentTarget" : "",
-      "secondaryClaim" : "",
-      "secondaryCommonCoreStandard" : "",
-      "secondaryContentDomain" : "",
-      "stimulusFormat" : "",
-      "stimulusLength" : "",
-      "structure" : "",
-      "subject" : "",
-      "tertiaryAssessmentTarget" : "",
-      "tertiaryClaim" : "",
-      "tertiaryCommonCoreStandard" : "",
-      "tertiaryContentDomain" : "",
-      "testCategory" : "",
-      "wordCount" : "",
-      "writingPurpose" : ""
+  "id": "834",
+  "type": "eq",
+  "core": {
+    "workflowStatusCode": "Draft",
+    "tutorialId": null,
+    "stimulusId": null,
+    "en": {
+      "prompt": "This is the content of an EQ item.",
+      "parts": [
+        {
+          "leftLabel": "Left Input Label 1",
+          "rightLabel": "Right Input Label 1",
+          "exemplarResponses": []
+        },
+        {
+          "leftLabel": "Left Input Label 2",
+          "rightLabel": "Right Input Label 2",
+          "exemplarResponses": []
+        }
+      ]
     },
-    "equationEditorConfiguration" : {
-      "code" : "HighSchool",
-      "label" : "High school",
-      "numpadConfiguration" : {
-        "isMinusVisible" : true,
-        "isFractionVisible" : false
+    "metadata": {
+      "accessibilityLanguageComplexity": "",
+      "calculator": "",
+      "claim2Category": "",
+      "claim2SubCategory": "",
+      "contentDomain": "",
+      "contentTaskModel": "",
+      "copyrightHolder": "",
+      "copyrightHolderOther": "",
+      "depthOfKnowledge": "",
+      "grade": "",
+      "grade8Or11OnlyAlgebraDescriptor": "",
+      "itemPoint": "",
+      "knowledgeDemands": "",
+      "languageFeatures": "",
+      "maxGrade": "",
+      "meaningPurpose": "",
+      "minGrade": "",
+      "passageName": "",
+      "performanceTask": "",
+      "primaryAssessmentTarget": "",
+      "primaryClaim": "",
+      "primaryCommonCoreStandard": "",
+      "primaryContentDomain": "",
+      "quaternaryAssessmentTarget": "",
+      "quaternaryClaim": "",
+      "quaternaryCommonCoreStandard": "",
+      "quaternaryContentDomain": "",
+      "readabilityFleschKincaid": "",
+      "readabilityLexile": "",
+      "scoringEngine": "",
+      "scoringPoints": "",
+      "secondaryAssessmentTarget": "",
+      "secondaryClaim": "",
+      "secondaryCommonCoreStandard": "",
+      "secondaryContentDomain": "",
+      "stimulusFormat": "",
+      "stimulusLength": "",
+      "structure": "",
+      "subject": "",
+      "tertiaryAssessmentTarget": "",
+      "tertiaryClaim": "",
+      "tertiaryCommonCoreStandard": "",
+      "tertiaryContentDomain": "",
+      "testCategory": "",
+      "wordCount": "",
+      "writingPurpose": ""
+    },
+    "equationEditorConfiguration": {
+      "code": "HighSchool",
+      "label": "High school",
+      "numpadConfiguration": {
+        "isMinusVisible": true,
+        "isFractionVisible": false
       },
-      "variableRowConfiguration" : {
-        "variables" : [ "f", "n" ],
-        "isRowVisible" : true
+      "variableRowConfiguration": {
+        "variables": [
+          "f",
+          "n"
+        ],
+        "isRowVisible": true
       },
-      "basicMathRowConfiguration" : {
-        "isMultiplyAsteriskVisible" : true,
-        "isMinusVisible" : false,
-        "isMultiplyTimesVisible" : false,
-        "isDivideVisible" : true,
-        "isPlusVisible" : true,
-        "isRowVisible" : true
+      "basicMathRowConfiguration": {
+        "isMultiplyAsteriskVisible": true,
+        "isMinusVisible": false,
+        "isMultiplyTimesVisible": false,
+        "isDivideVisible": true,
+        "isPlusVisible": true,
+        "isRowVisible": true
       },
-      "comparisonRowConfiguration" : {
-        "isGreaterThanOrEqualVisible" : false,
-        "isLessThanOrEqualVisible" : false,
-        "isEqualVisible" : true,
-        "isGreaterThanVisible" : true,
-        "isLessThanVisible" : true,
-        "isRowVisible" : true
+      "comparisonRowConfiguration": {
+        "isGreaterThanOrEqualVisible": false,
+        "isLessThanOrEqualVisible": false,
+        "isEqualVisible": true,
+        "isGreaterThanVisible": true,
+        "isLessThanVisible": true,
+        "isRowVisible": true
       },
-      "advancedMathRowConfiguration" : {
-        "isAbsoluteValueVisible" : false,
-        "isSquareRootVisible" : false,
-        "isNthRootVisible" : false,
-        "isImaginaryVisible" : true,
-        "isSubscriptVisible" : false,
-        "isPiVisible" : false,
-        "isSuperscriptVisible" : false,
-        "isParenthesesVisible" : false,
-        "isRowVisible" : true,
-        "isFractionVisible" : false
+      "advancedMathRowConfiguration": {
+        "isAbsoluteValueVisible": false,
+        "isSquareRootVisible": false,
+        "isNthRootVisible": false,
+        "isImaginaryVisible": true,
+        "isSubscriptVisible": false,
+        "isPiVisible": false,
+        "isSuperscriptVisible": false,
+        "isParenthesesVisible": false,
+        "isRowVisible": true,
+        "isFractionVisible": false
       },
-      "trigonometryRowConfiguration" : {
-        "isArcSineVisible" : true,
-        "isArcCosineVisible" : false,
-        "isSineVisible" : true,
-        "isCosineVisible" : false,
-        "isTangentVisible" : true,
-        "isArcTangentVisible" : true,
-        "isRowVisible" : true
+      "trigonometryRowConfiguration": {
+        "isArcSineVisible": true,
+        "isArcCosineVisible": false,
+        "isSineVisible": true,
+        "isCosineVisible": false,
+        "isTangentVisible": true,
+        "isArcTangentVisible": true,
+        "isRowVisible": true
       }
     }
   },
-  "asl" : {
-    "attachments" : [ ],
-    "isAslRequired" : "undetermined",
-    "isAslProvided" : false
+  "asl": {
+    "attachments": [],
+    "isAslRequired": "undetermined",
+    "isAslProvided": false
   },
-  "braille" : {
-    "attachments" : [ ],
-    "isBrailleRequired" : "undetermined",
-    "isBrailleProvided" : false
+  "braille": {
+    "attachments": [],
+    "isBrailleRequired": "undetermined",
+    "isBrailleProvided": false
   },
-  "cc" : {
-    "attachments" : [ ],
-    "isCcRequired" : "undetermined",
-    "isCcProvided" : false
+  "cc": {
+    "attachments": [],
+    "isCcRequired": "undetermined",
+    "isCcProvided": false
   },
-  "images" : {
-    "imageResources" : [ ]
+  "images": {
+    "imageResources": []
   },
-  "audio" : {
-    "audioResources" : [ ]
+  "audio": {
+    "audioResources": []
   }
 }
