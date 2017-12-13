@@ -1,0 +1,18 @@
+itembank:
+  localBaseDir: "/ItemReportJob"
+  randomizeItemClone: false
+
+irj:
+  systemUserName: "item-report-job"
+  systemFullName: "Item Report Job"
+
+tasks:
+  reportSchedule: "0 30 0 * * *"
+
+logging:
+  level:
+    org:
+      opentestsystem:
+        ap:
+          irj: "debug"
+          common: "debug"
