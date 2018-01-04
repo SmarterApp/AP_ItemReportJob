@@ -12,7 +12,7 @@
         <Console name="Console" target="SYSTEM_OUT" immediateFlush="false">
             <PatternLayout pattern="${sys:CONSOLE_LOG_PATTERN}" />
         </Console>
-        <Socket name="gelfAppender" protocol="udp" host="${GRAYLOG_HOST}" port="${GRAYLOG_PORT}" immediateFlush="false">
+        <Socket name="Graylog" protocol="udp" host="${GRAYLOG_HOST}" port="${GRAYLOG_PORT}" immediateFlush="false">
             <GelfLayout host="${HOSTNAME}" compressionType="ZLIB" compressionThreshold="1024">
                 <KeyValuePair key="application" value="irj"/>
             </GelfLayout>
@@ -32,14 +32,9 @@
         <Logger name="org.springframework.boot.actuate.endpoint.jmx" level="warn"/>
         <Logger name="org.thymeleaf" level="warn"/>
 
-        <Logger name="org.opentestsystem" level="debug" additivity="false">
-            <AppenderRef ref="Console"/>
-            <AppenderRef ref="gelfAppender"/>
-        </Logger>
-
         <Root level="info">
             <AppenderRef ref="Console"/>
-            <AppenderRef ref="gelfAppender"/>
+            <AppenderRef ref="Graylog"/>
         </Root>
     </Loggers>
 </Configuration>
