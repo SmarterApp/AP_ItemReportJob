@@ -31,14 +31,15 @@ irj:
   systemFullName: "Item Report Job"
 
 tasks:
-  reportSchedule: "0 30 12 * * *"
+  reportSchedule: "0 38 13 * * *"
 
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
   accessToken: "${GITLAB_ACCESS_TOKEN}"
   user: "${GITLAB_USER}"
   password: "${GITLAB_PASSWORD}"
-  group: "${GITLAB_GROUP}"
+#  group: "${GITLAB_GROUP}"
+  group: "iat-development"
   localBaseDir: "${HOME}/ItemBankIRJ"
   apiVersion: "/api/v4"
   bankKey: "187"
