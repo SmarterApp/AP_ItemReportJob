@@ -37,7 +37,7 @@ irj:
   systemFullName: "Item Report Job"
 
 tasks:
-  reportSchedule: "0 48 14 * * *"
+  reportSchedule: "0 55 8 * * *"
 
 itembank:
   host: "https://gitlab-dev.smarterbalanced.org"
@@ -60,3 +60,10 @@ logging:
         ap:
           irj: "debug"
           common: "debug"
+
+---
+spring:
+  profiles: dev
+
+itembank:
+  group: "iat-development"
