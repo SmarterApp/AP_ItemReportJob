@@ -63,7 +63,7 @@ configurations {
 }
 
 dependencies {
-    compile 'org.opentestsystem.ap:ap-common:0.4.34'
+    compile 'org.opentestsystem.ap:ap-common:0.4.35'
 
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'org.springframework.boot:spring-boot-starter-security'
@@ -101,9 +101,6 @@ dependencies {
 
     compile 'io.github.openfeign:feign-gson:9.3.1'
 
-    compile 'io.springfox:springfox-swagger2:2.6.1'
-    compile 'io.springfox:springfox-swagger-ui:2.6.1'
-
     compileOnly 'org.projectlombok:lombok'
 
     runtime('org.hsqldb:hsqldb')
@@ -111,8 +108,6 @@ dependencies {
     runtime 'org.springframework.boot:spring-boot-devtools'
 
     testCompile 'org.springframework.boot:spring-boot-starter-test'
-
-    testCompile 'org.projectlombok:lombok'
 }
 
 dependencyManagement {
